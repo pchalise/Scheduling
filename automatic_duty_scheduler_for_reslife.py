@@ -5,7 +5,7 @@ from calendar import monthrange
 list_of_RA = ['Biplab', 'Vibhu', 'Atsushi', 'Gaelle', 'Jenski', 'Emi']
 duty_schedule_dictionary = {}
 
-
+#listing weekend and weekdays
 def separate_weekdays_and_weekends(start_day, end_day, month, year):
     list_of_weekends = []
     list_of_weekdays = []
